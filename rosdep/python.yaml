@@ -1948,6 +1948,22 @@ python-imaging:
     yakkety_python3: [python3-imaging]
     zesty: [python-imaging]
     zesty_python3: [python3-imaging]
+python3-imaging:
+  alpine: [py-pillow]
+  arch: [python-pillow]
+  debian: [python3-pil]
+  fedora: [python3-pillow, python3-pillow-qt]
+  freebsd: [py36-pillow]
+  gentoo: [dev-python/pillow]
+  macports: [py36-Pillow]
+  opensuse: [python-imaging]
+  osx:
+    pip:
+      packages: [Pillow]
+  slackware:
+    slackpkg:
+      packages: [python-pillow]
+  ubuntu: [python3-pil]
 python-imaging-imagetk:
   debian: [python-pil.imagetk]
   ubuntu: [python-pil.imagetk]
